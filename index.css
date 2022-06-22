@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('//db.onlinewebfonts.com/c/6a6c592dea4334cb0ba3560d0fc838ba?family=LaserW00-Chrome');
+@font-face {
+    font-family:"LaserW00-Chrome" ;
+    src: url("//db.onlinewebfonts.com/t/6a6c592dea4334cb0ba3560d0fc838ba.eot"); src: url("//db.onlinewebfonts.com/t/6a6c592dea4334cb0ba3560d0fc838ba.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6a6c592dea4334cb0ba3560d0fc838ba.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6a6c592dea4334cb0ba3560d0fc838ba.woff") format("woff"), url("//db.onlinewebfonts.com/t/6a6c592dea4334cb0ba3560d0fc838ba.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6a6c592dea4334cb0ba3560d0fc838ba.svg#LaserW00-Chrome") format("svg");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #1E1E1E;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-family:"LaserW00-Chrome" ;
+    font-size: 3rem;
+    color: #CB4B4B;
+    font-weight: 400;
+    background-color: #f1f1f1f1;
+}
+
+#cont-pizzas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#mensaje_inicial{
+    width: 100%;
+    text-align: center;
+    margin:1rem 1rem;
+    color: #f1f1f1f1;
+}
+
+.card_separator{
+    width:25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_pizzas{
+    width: 15rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f1f1f1;
+    box-shadow: 0px 0px 7px 4px #000000;
+    border-radius: 6px;
+    margin: 0.5rem 0.5rem;
+}
+
+.cont_img{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.cont_img img{
+    width: 15rem;
+    overflow: hidden;
+}
+
+.cont_name_price{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.cont_name_price span{
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.cont_ingredientes{
+    width: 10rem;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px #CB4B4B;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+
+.cont_input{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1E1E1E;
+}
+
+#pizza_ID{
+    width: 13rem;
+    height: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    caret-color: #CB4B4B;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+#button_send{
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #CB4B4B;
+    color: #f1f1f1f1;
+    font-size: 1rem;
+}
